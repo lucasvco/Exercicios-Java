@@ -22,7 +22,12 @@ public class criaConta {
 		terceiraConta.saldo = 400;
 		terceiraConta.titular = "Luiza V.";
 		
-		terceiraConta.depositar(900);
+		primeiraConta.depositar(900);
+		System.out.println(primeiraConta.saldo);
+		segundaConta.sacar(150);
+		System.out.println(segundaConta.saldo);
+		terceiraConta.transferir(200, segundaConta);
+		System.out.println(segundaConta.saldo);
 		System.out.println(terceiraConta.saldo);
 	}
 }
