@@ -3,6 +3,12 @@ public class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	private static int total;
+	
+	public Conta() {
+		Conta.total++;
+		System.out.println("O total de contas é " + total);
+	}
 
 	
 	public void depositar(double valor) {
