@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class testeStringContraria {
 
 	public static void main(String[] args) {
-		contrario("minha pirocona");
+		contrario("minha frase");
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite a frase");
